@@ -1,4 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/photos/thumb-1920-77840.jpg);
+  font-family: "Share Tech Mono", monospace;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: white;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.resultText {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  gap: 30px;
+  font-size: 2rem;
+}
+
+.buttons > button {
+  font-size: 3rem;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: ease 0.2s;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.buttons > button:hover {
+  transform: scale(1.04);
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  font-size: 4rem;
+  margin-top: 80px;
+  color: white;
+  align-items: center;
+}
+
+.playAgain {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 0;
+  position: relative;
+  pointer-events: none;
+  bottom: 90px;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.playerScore {
+  color: rgb(236, 236, 236);
+}
+
+.compScore {
+  color: rgb(76, 201, 18);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vh;
+    height: 100%;
+
 }
