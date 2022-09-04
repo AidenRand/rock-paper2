@@ -45,8 +45,6 @@ function getCompChoice() {
 }
 getCompChoice();
 
-/* figure out why the computer choice is showing up before the playerchoice is input and
-fix the if statements below*/
 function playGame(compChoice, playerChoice) {
   let result;
   if (playerChoice === compChoice) {
